@@ -11,10 +11,13 @@ public class EmailService {
 
     private final EmailClient emailClient;
 
-
     public void enviaEmail(TarefasDTOResponse dto) {
         emailClient.enviarEmail(dto);
 
     }
 }
+
+
+
+
 
